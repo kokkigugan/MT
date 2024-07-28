@@ -1,0 +1,20 @@
+/* FileDropZone.css */
+.dropzone {
+    width: 100%;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .dropzone-active {
+    border-color: #aaa;
+    background-color: #f9f9f9;
+  }
+  

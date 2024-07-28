@@ -1,0 +1,51 @@
+.page-posts-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+  }
+  
+  .page-posts-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .posts-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .post-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .post-image {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .post-info {
+    padding: 10px;
+  }
+  
+  .post-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .post-icons i {
+    font-size: 1.5em;
+    color: #ff3b30;
+  }
+  
+  .post-message {
+    font-size: 1em;
+    color: #333;
+  }
+  

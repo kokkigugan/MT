@@ -1,0 +1,22 @@
+/* AppSlider.css */
+.slider-container {
+    padding: 0.5rem;
+  }
+  
+  .slider-label {
+    margin-bottom: 0.5rem;
+    background-color: yellowgreen;
+    padding: 0.2rem;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+  }
+  
+  .slider-wrapper {
+    padding: 1rem;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  

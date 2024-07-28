@@ -1,0 +1,84 @@
+/* CropImage.css */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 100vh; /* Make the container fill the viewport height */
+  }
+  
+  .controls {
+    width: 300px; /* Adjust the width as needed */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .url-input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .dropzone {
+    width: 100%;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .dropzone-active {
+    border-color: #aaa;
+    background-color: #f9f9f9;
+  }
+  
+  .slider-container {
+    padding: 0.5rem;
+  }
+  
+  .slider-label {
+    margin-bottom: 0.5rem;
+    padding: 0.2rem;
+    color: black;
+    text-align: center;
+  }
+  
+  .slider-wrapper {
+    padding: 1rem 0;
+  }
+  
+  .button-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-download:hover {
+    background-color: #0056b3;
+  }
+  
+  .image-cropper-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0; /* Optional: Add a background color to the cropper area */
+    max-width: calc(100% - 320px); /* Adjust according to the control panel width */
+    margin-left: auto; /* Align to the right */
+  }
+  
